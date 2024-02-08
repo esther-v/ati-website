@@ -1,0 +1,35 @@
+body {
+  padding: 0.5rem 1rem;
+  font-family: "Trirong", serif;
+}
+
+.nav {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.menu {
+  border: 1px solid black;
+  display: flex;
+  gap: 3rem;
+}
+
+.container {
+  margin-bottom: 0.5rem;
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
