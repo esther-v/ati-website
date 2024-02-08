@@ -1,4 +1,3 @@
-import React from 'react'
 import HomeDemo from '../assets/homepage-kitchen.jpg'
 
 const Home = () => {
