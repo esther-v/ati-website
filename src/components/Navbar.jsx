@@ -1,14 +1,14 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
     <nav className='nav'>
       ATI
       <div className="menu">
-        <a>Accueil</a>
-        <a>Prestations</a>
-        <a>Réalisations</a>
-        <a>Contact</a>
+        <Link to="/">Accueil</Link>
+        <Link to="/prestations">Prestations</Link>
+        <Link to="/realisations">Réalisations</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </nav>
   )
