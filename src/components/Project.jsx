@@ -7,6 +7,7 @@ const Project = ({ project, even }) => {
         <h6>{project.subtitle}</h6>
         <p>{project.description}</p>
         <img className="description-img" src={project.imgDescriptionUrl} />
+        <button className="button">En savoir plus</button>
       </div>
     </div>
   )

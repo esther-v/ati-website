@@ -7,6 +7,19 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.button {
+  background: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: gray;
+  color: white;
+}
+
 /* NAV BAR */
 .nav {
   position: sticky;
@@ -40,12 +53,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  gap: 1rem;
+  margin: 3rem 0;
 }
 
 .presentation-img {
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -53,6 +67,10 @@ body {
   width: 150px;
   height: 80px;
   object-fit: cover;
+}
+
+.project-details {
+  border-top: 2px solid gray;
 }
 
 /* CONTACT PAGE */
