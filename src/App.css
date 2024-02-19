@@ -1,9 +1,9 @@
 body {
   font-family: "Trirong", serif;
-  padding: 0.5rem 4rem;
 }
 
 .container {
+  padding: 0.5rem 4rem;
   margin-bottom: 0.5rem;
 }
 
@@ -20,26 +20,6 @@ body {
   color: white;
 }
 
-/* NAV BAR */
-.nav {
-  position: sticky;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex: 1;
-}
-
-.menu {
-  display: flex;
-  gap: 4rem;
-}
-
-.menu a {
-  text-decoration: none;
-  font-size: 24px;
-}
-
-
 /* HOME PAGE */
 
 .home-img {
@@ -47,31 +27,16 @@ body {
   height: 100%;
 }
 
-/* REALISATIONS PAGE - PROJECTS */
-
-.project {
+.services {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin: 3rem 0;
+  justify-self: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-.presentation-img {
-  width: 500px;
-  height: 300px;
-  object-fit: cover;
-}
+/* REALISATIONS PAGE - PROJECTS */
 
-.description-img {
-  width: 150px;
-  height: 80px;
-  object-fit: cover;
-}
-
-.project-details {
-  border-top: 2px solid gray;
-}
 
 /* CONTACT PAGE */
 
@@ -80,18 +45,5 @@ form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
 }
 
-/* .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-} */
